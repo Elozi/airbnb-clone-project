@@ -1,23 +1,26 @@
 # Airbnb Clone Project
 
-This repository contains the development and design process for an Airbnb-like booking system, focusing on clean UI/UX, organized team roles, and reusable UI component patterns.
+This repository contains the development and design process for the clone of a popular accommodation booking platform, Airbnb. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings whilefocusing on clean UI./UX, organized team roles, and reusable UI component patterns.
 
 ---
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript (React or similar framework)
+- Version Control: Git and GitHub
+- Design Tools: Figma for UI/UX design
 
 ## UI/UX Design Planning
 
 ### Design Goals
-- Build a clean, modern, and intuitive interface that mimics Airbnb's user experience.
-- Ensure responsiveness across all devices.
-- Simplify user flow from browsing properties to completing a booking.
-- Maintain accessibility and visual clarity.
+- Create intuitive booking flow
+- Maintain visual consistency
+- Ensure fast loading times
+- Prioritize mobile responsiveness
 
 ### Key Features
-- Property listings with filters
-- Property detail view with images, amenities, and reviews
-- Seamless checkout process
+- Property search and filtering
+- Detailed property viewing
+- Secure checkout process
 - User authentication
-- Booking management
 
 ### Primary Page Descriptions
 
@@ -33,22 +36,23 @@ User-friendly design is essential in a booking system to ensure:
 - Higher conversion rates during the booking process
 - Fewer user errors and support issues
 - Improved satisfaction and return visits
-
----
+- Clear navigation, intuitive interfaces, and responsive design are critical for success.
 
 ## More UI/UX Design Planning
+Figma Design Specifications
 
 ### Figma Design Properties
 
 **Color Styles:**
-- Primary: #FF5A5F (Airbnb Red)
-- Secondary: #484848 (Dark Gray)
-- Background: #F7F7F7 (Light Gray)
-- Accent: #00A699 (Teal)
+Primary: #FF5A5F
+Secondary: #008489
+Background: #FFFFFF
+Text: #222222
+Secondary Text: #717171
 
 **Typography:**
 - Font Family: `Circular`, fallback: `Arial`, `sans-serif`
-- Font Weights: 400 (Regular), 600 (Semi-Bold), 700 (Bold)
+- Font Weights: 400 (Regular), Medium (500), 600 (Semi-Bold), 700 (Bold) 
 - Font Sizes:
   - Header: 24px, 32px
   - Subheader: 18px
@@ -60,8 +64,7 @@ Understanding design properties such as typography and color styles:
 - Helps developers implement design accurately
 - Allows for easier changes and scalability
 - Improves overall visual hierarchy and accessibility
-
----
+- Clear navigation, intuitive interfaces, and responsive design are critical for success.
 
 ## Project Roles and Responsibilities
 
@@ -82,14 +85,19 @@ Understanding design properties such as typography and color styles:
 
 ### Planned UI Components
 
+Site links
+Company information
+Social media links
+Copyright information
+
 - **Navbar**  
-  Contains site logo, search bar, user menu, and links. Should be responsive and sticky.
+  Contains site logo, search bar, User navigation, and Responsive menu. Should be responsive and sticky.
 
 - **Property Card**  
-  Compact display of property info including image, title, location, price, and rating. Used in listing view.
+  Compact display of property info including image, title, location, price, rating, Favorite button and Responsive layout Used in listing view.
 
 - **Footer**  
-  Contains links to About, Support, Legal pages, and social media icons.
+  Contains Site links, Company information, Social media links, and Copyright information.
 
 Each component will be designed for reusability and responsiveness, following the established design system.
 
